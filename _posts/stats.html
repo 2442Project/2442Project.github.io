@@ -1,10 +1,45 @@
----
-layout: post
-title: Project 24:42 Stats
-date:   2017-07-01 00:00:00
-categories: posts
-permalink: /stats.html
----
+<!DOCTYPE html>
+<html>
+  <head>
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+      <title>24:42 Project - {{ page.title }}</title>
+      <meta name="viewport" content="width=device-width">
+	  <!-- Custom CSS -->
+      <link rel="stylesheet" href="/css/main.css">
+	  <!-- syntax highlighting CSS -->
+      <link rel="stylesheet" href="/css/syntax.css">
+      <!-- Responsive CSS -->
+      <link rel="stylesheet" href="/css/responsive.css" media="(max-width: 1309px)">
+  </head>
+  <body>
+    <div class="site">
+      <div class="sidebar" id="sidebar">
+        <div class="header">
+          <h1 class="title"><a href="/"><img id="logo" src="/images/logo.webp"></a></h1>
+          <span class="tagline">Cyber Security Project</span>
+        </div>
+        <div class="posts">
+          <ul class="posts-list">
+            {% for post in site.posts %}
+              <li class="post-link">
+                <a class="post-title" href="{{ post.url }}">
+                  <span class="post-date">{{ post.date | date_to_string }}</span>
+                  {{ post.title }}
+                </a>
+              </li>
+            {% endfor %}
+          </ul>
+        </div>
+        <div class="footer">
+          <span id="footer-links">
+            <a href="https://2442.nl/overons.html" class="footer-link">Over ons</a> <span class="separator">&bull;</span>
+            <a href="https://www.twitter.com/2442Project" target="_new" class="footer-link">Twitter</a>
+          </span>
+        </div>
+      </div>
+
+        
 <style>
 
 body {
@@ -96,3 +131,8 @@ function arcTween(a) {
 d3.select(self.frameElement).style("height", height + "px");
 
 </script>
+
+    </div>
+    <script async src="/scripts/responsive.js" type="text/javascript"></script>
+  </body>
+</html>
