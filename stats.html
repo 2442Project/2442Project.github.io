@@ -6,6 +6,8 @@ permalink: /stats.html
 <center>
 <script src="https://d3js.org/d3.v3.js"></script>
 <h1>Opgeloste Kwetsbaarheden</h1>
+</center>
+<center>
 <div id="chart"></div>
 </center>
 <style>
@@ -24,7 +26,7 @@ var width = 855,
     height = 450,
     radius = Math.min(width, height) / 2;
 var color = d3.scale.ordinal()
-    .range(["#98abc5", "#8a89a6", "#7b6888", "#6b486b", "#a05d56", "#d0743c", "#ff8c00"]);
+    .range(["#0BC5BC", "#0CE88F", "#00FF3E", "#2BE80C", "#94FF01", "#68C50B", "#DBE80C", "#FFE300", "#E8B40C", "#FFA301", "#E86F0C", "#E81E0C"]);
 var arc = d3.svg.arc()
     .outerRadius(radius - 10)
     .innerRadius(0);

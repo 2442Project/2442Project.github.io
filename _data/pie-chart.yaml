@@ -1,15 +1,25 @@
 ---
-- age: "<5"
-  population: '2704659'
-- age: 5-15
-  population: '4499890'
-- age: 14-20
-  population: '2159981'
-- age: 2-24
-  population: '3853788'
-- age: 25-44
-  population: '14106543'
-- age: 45-64
-  population: '8819342'
-- age: "≥65"
-  population: '612463'
+- Kwetsbaarheid: Verlopen Certificaat
+  population: '0'
+- Kwetsbaarheid: Drown
+  population: '0'
+- Kwetsbaarheid: POODLE
+  population: '0'
+- Kwetsbaarheid: LOGJAM
+  population: '0'
+- Kwetsbaarheid: FREAK
+  population: '0'
+- Kwetsbaarheid: CRIME
+  population: '0'
+- Kwetsbaarheid: Zwakke Diffie-Hellman
+  population: '1'
+- Kwetsbaarheid: Verouderde suites
+  population: '1'
+- Kwetsbaarheid: OpenSSL CCS
+  population: '0'
+- Kwetsbaarheid: CVE-2016-2107
+  population: '0'
+- Kwetsbaarheid: SSLv2
+  population: '0'
+- Kwetsbaarheid: SSLv3
+  population: '0'
