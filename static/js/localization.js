@@ -3,7 +3,7 @@ $(document).ready(function() {
     lng: 'nl',
     getAsync: true,
     fallbackLng: 'nl',
-    resGetPath: 'static/locales/__lng__.json'
+    resGetPath: 'index/static/locales/__lng__.json'
   };
 
   var translate = function() {
