@@ -1,0 +1,19 @@
+# projects section data
+  
+- name: Cyberwerkplaats
+  i18n: cyw
+  url: https://cyberwerkplaats.nl/
+  img: /static/assets/img/landing/cw.jpg
+  desc: This is another project.
+
+- name: GDI Foundation
+  i18n: gdi
+  url: https://gdi.foundation/
+  img: /static/assets/img/landing/gdi.png
+  desc: This is another project.
+
+- name: WiCS
+  i18n: wics
+  url: https://wics.online/
+  img: /static/assets/img/landing/wics.png
+  desc: This is another project.

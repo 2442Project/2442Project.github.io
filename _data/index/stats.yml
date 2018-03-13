@@ -1,0 +1,14 @@
+# stats section data
+
+- label: Aantal totaal-meldingen, per sector
+  id : doughnut-chart
+  aspects: Politiek, Onderwijs, Financiën, Overheid, Overig
+  percentage: 12, 6, 4, 9, 10
+  total: 41
+  
+- label: Totaal aantal meldingen, Server/Certificaat-verhouding
+  id : doughnut-chart2
+  aspects: Server, Certificaat
+  percentage: 649, 281
+  total: 930
+  
