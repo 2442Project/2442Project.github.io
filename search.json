@@ -1,17 +1,12 @@
----
-layout: null
----
 {
     "code" : 0 ,
     "data" : [
-     {% for post in site.posts %}
+     
     {
-        "title" : "{{ post.title }} - {{ post.date | date_to_utc | date: '%Y-%m-%d'}}",
-        "url" : "{{ site.baseurl }}{{ post.url }}"
+        "title" : "About Us - 2017-07-01",
+        "url" : "/index/2017/07/01/about-us.html"
     }
-    {% if forloop.rindex != 1  %}
-    ,
-    {% endif %}
-    {% endfor %}
+    
+    
     ]
 }

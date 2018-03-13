@@ -1,30 +1,32 @@
----
-layout: null
----
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>{{ site.title | xml_escape }}</title>
-    <description>{{ site.description | xml_escape }}</description>
-    <link>{{ site.url }}{{ site.baseurl }}/</link>
-    <atom:link href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}" rel="self" type="application/rss+xml"/>
-    <pubDate>{{ site.time | date_to_rfc822 }}</pubDate>
-    <lastBuildDate>{{ site.time | date_to_rfc822 }}</lastBuildDate>
-    <generator>Jekyll v{{ jekyll.version }}</generator>
-    {% for post in site.posts %}
+    <title>Project 24:42</title>
+    <description>Project 24:42</description>
+    <link>http://localhost:4000/index/</link>
+    <atom:link href="http://localhost:4000/index/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Tue, 13 Mar 2018 21:06:52 +0100</pubDate>
+    <lastBuildDate>Tue, 13 Mar 2018 21:06:52 +0100</lastBuildDate>
+    <generator>Jekyll v3.6.2</generator>
+    
       <item>
-        <title>{{ post.title | xml_escape }}</title>
-        <description>{{ post.content | xml_escape }}</description>
-        <pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
-        <link>{{ post.url | prepend: site.baseurl | prepend: site.url }}</link>
-        <guid isPermaLink="true">{{ post.url | prepend: site.baseurl | prepend: site.url }}</guid>
-        {% for tag in post.tags %}
-        <category>{{ tag | xml_escape }}</category>
-        {% endfor %}
-        {% for cat in post.categories %}
-        <category>{{ cat | xml_escape }}</category>
-        {% endfor %}
+        <title>About Us</title>
+        <description>&lt;p&gt;Het 24:42 Project, ook wel Project 24:42 genoemd, is een project bestaande uit vrijwilligers met als doel het helpen verbeteren van het gebruik van digitale veiligheids- en encryptiestandaarden bij voornamelijk Nederlandse (overheids)organisaties.
+Visie&lt;/p&gt;
+
+&lt;p&gt;De leden van het Project zijn van mening dat goede encryptie van internetverkeer essentieel is voor de digitale samenleving. Het (moedwillig) verzwakken van deze encryptie maakt volgens de leden dit digitale verkeer onveilig voor burgers, bedrijven en de overheid.
+Onderzoek en Melding&lt;/p&gt;
+
+&lt;p&gt;Het Project gebruikt verschillende open-source technieken en eigen databases om het verkeer naar de website van de organisatie en haar subdomeinen te testen. Het Project ziet het dan ook als haar taak om bij het ontdekken van het gebruik van verzwakte SSL/TLS-verbindingen of het ontbreken van de juiste veiligheidsupdates deze via een zo verantwoord mogelijke manier te melden bij de organisatie. Deze melding zal, indien aanwezig, gedaan worden volgens de norm die is opgesteld in het Responsible Disclosure-beleid van de betreffende organisatie.&lt;/p&gt;
+
+&lt;p&gt;Indien er geen handelingen verricht worden door de betreffende organisatie zonder antwoord op de melding zal er indien nodig contact worden opgenomen met andere instanties, bijvoorbeeld het Nationaal Cyber Security Center Nederland.&lt;/p&gt;
+</description>
+        <pubDate>Sat, 01 Jul 2017 00:00:00 +0200</pubDate>
+        <link>http://localhost:4000/index/2017/07/01/about-us.html</link>
+        <guid isPermaLink="true">http://localhost:4000/index/2017/07/01/about-us.html</guid>
+        
+        
       </item>
-    {% endfor %}
+    
   </channel>
 </rss>
