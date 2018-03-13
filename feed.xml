@@ -3,10 +3,10 @@
   <channel>
     <title>Project 24:42</title>
     <description>Project 24:42</description>
-    <link>http://localhost:4000//</link>
-    <atom:link href="http://localhost:4000//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 13 Mar 2018 23:19:31 +0100</pubDate>
-    <lastBuildDate>Tue, 13 Mar 2018 23:19:31 +0100</lastBuildDate>
+    <link>http://localhost:4000/index/</link>
+    <atom:link href="http://localhost:4000/index/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Tue, 13 Mar 2018 23:47:03 +0100</pubDate>
+    <lastBuildDate>Tue, 13 Mar 2018 23:47:03 +0100</lastBuildDate>
     <generator>Jekyll v3.6.2</generator>
     
       <item>
@@ -22,8 +22,8 @@ Onderzoek en Melding&lt;/p&gt;
 &lt;p&gt;Indien er geen handelingen verricht worden door de betreffende organisatie zonder antwoord op de melding zal er indien nodig contact worden opgenomen met andere instanties, bijvoorbeeld het Nationaal Cyber Security Center Nederland.&lt;/p&gt;
 </description>
         <pubDate>Sat, 01 Jul 2017 00:00:00 +0200</pubDate>
-        <link>http://localhost:4000//2017/07/01/about-us.html</link>
-        <guid isPermaLink="true">http://localhost:4000//2017/07/01/about-us.html</guid>
+        <link>http://localhost:4000/index/2017/07/01/about-us.html</link>
+        <guid isPermaLink="true">http://localhost:4000/index/2017/07/01/about-us.html</guid>
         
         
       </item>
