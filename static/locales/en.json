@@ -1,0 +1,38 @@
+{
+  "website":{
+    "title": "Project 24:42"
+  },
+  "nav":{
+    "home": "Home",
+    "about_me": "About",
+    "stats": "Stats",
+    "projects": "Projects",
+    "blog": "Blog",
+    "contact": "Contact"
+  },
+  "about_me":{
+    "about_me": "About us",
+    "about_me2": "Project 24:42 is a project consisting of volunteers with the aim to help improve the use of digital security and encryption standards in mainly Dutch (government) organizations.",
+    "about_me3": "More info"
+ },
+  "stats":{
+    "my_stats": "Stats",
+    "my_stats2": "The overall picture based on anonymised data.",
+	"stats3": "More statistics soon"
+  },
+  "projects":{
+    "my_projects": "Digital hero's",
+    "my_projects2": "We are fans of the following groups;",
+	"cyw": "Non-profit organisatie die jonge, digitale talenten helpt en begeleidt bij hun eerste (of officiële) intrede in de wereld van digitale security.",
+	"gdi": "Non-profit organisatie die zich toelegt op het veilig- en openhouden van het internet door middel van responsible disclosure meldingen.",
+	"wics": "Het belangrijkste doel van WiCS is het bevorderen van connecties tussen de ondervertegenwoordigde vrouwen in de verschillende digitale beveiligingsvelden."
+   },
+  "blog":{
+    "my_blog": "My Blog"
+  },
+  "contact":{
+    "contact": "Contact",
+    "view": "views"
+  }
+
+}

@@ -1,0 +1,49 @@
+{
+  "website":{
+    "title": "Project 24:42"
+  },
+  "nav":{
+    "home": "Home",
+    "about_me": "Over Ons",
+    "stats": "Statistieken",
+    "projects": "Projecten",
+    "blog": "Blog",
+    "contact": "Contact"
+  },
+  "about_me":{
+    "about_me": "Over ons",
+    "about_me2": "Project 24:42 is een project bestaande uit vrijwilligers met als doel het helpen verbeteren van het gebruik van digitale veiligheids- en encryptiestandaarden bij voornamelijk Nederlandse (overheids)organisaties.",
+    "about_me3": "Meer info",
+	"about_page1": "Het 24:42 Project, ook wel Project 24:42 genoemd, is een project bestaande uit vrijwilligers met als doel het helpen verbeteren van het gebruik van digitale veiligheids- en encryptiestandaarden bij voornamelijk Nederlandse (overheids)organisaties.",
+    "about_page2": "Visie",
+	"about_page3": "De leden van het Project zijn van mening dat goede encryptie van internetverkeer essentieel is voor de digitale samenleving. Denk aan het veilig kunnen versturen van privacy-gevoelige informatie, zoals persoonlijk data, het veilig kunnen maken van afspraken bij overheden en/of organisaties en het online betalingsverkeer.",
+    "about_page4": "Het (moedwillig) verzwakken van deze encryptie maakt volgens de leden dit digitale verkeer onveilig voor burgers, bedrijven en de overheid.",
+	"about_page5": "Verder is het Project ook van mening dat een breed gedragen ondersteuning en daarbij behorend gebruik van het Responsible Disclosure-principe meerdere grote voordelen met zich meebrengt in de digitale sector. Naast het veiligheidsaspect waarbij organisaties sneller op de hoogte gebracht kunnen worden van (het voorkomen van) mogelijke lekken/kwetsbaarheden in de eigen netwerken door duidelijk aangegeven contactpunten en de daarbij behorende vermindering in meldtijd, draagt het door de preventieve werking op termijn ook bij aan een vermindering van kosten.",
+	"about_page6": "Verder heeft het gebruik van een Responsible Disclosure-beleid ook een positieve werking op de actuele digitale kennis van een organisatie en haar medewerkers, doordat deze vaker en sneller in contact zullen komen met digitale onderzoekers en/of ethische hackers. Hierdoor zullen organisaties en haar medewerkers een beter beeld krijgen van wat er in de digitale wereld speelt en welke invloed dit heeft op haar eigen netwerken.",	
+    "about_page7": "Bovendien zal het Responsible Disclosure-principe ook een positieve invloed hebben op studenten en andere (jonge) talenten, omdat deze groep doormiddel van het Responsible Disclosure-principe meer kansen krijgt om zich op een eerlijke en positieve manier te ontwikkelen in de richting van de digitale security.",
+	"about_page8": "Het Project is van mening dat er niet angstig gekeken moet worden naar deze groep, maar dat deze groep een gelijkwaardige en eerlijke kans verdient om binnen het Responsible Disclosure-gedachtengoed ook zonder angst voor eventuele gevolgen/vervolging hun talenten te laten ontwikkelen. Dit vergroot de digitale volwassenheid en vermindert de kans dat het talent van deze groep verdwijnt of door criminelen misbruikt word.",
+	"about_page9": "Onderzoek en Melding",
+	"about_page10": "Het Project gebruikt verschillende open-source technieken en eigen databases om het verkeer naar de website van de organisatie en haar subdomeinen te testen. Het Project ziet het dan ook als haar taak om bij het ontdekken van het gebruik van verzwakte SSL/TLS-verbindingen of het ontbreken van de juiste veiligheidsupdates deze via een zo verantwoord mogelijke manier te melden bij de organisatie. Deze melding zal, indien aanwezig, gedaan worden volgens de norm die is opgesteld in het Responsible Disclosure-beleid van de betreffende organisatie.",
+	"about_page11": "Indien er geen handelingen verricht worden door de betreffende organisatie zonder antwoord op de melding zal er indien nodig contact worden opgenomen met andere instanties, bijvoorbeeld het Nationaal Cyber Security Center Nederland."
+  },
+  "stats":{
+    "my_stats": "Statistieken",
+    "my_stats2": "Totaalbeeld op basis van geanonimiseerde gegevens.",
+	"stats3":  "Binnenkort meer statistieken"
+  },
+  "projects":{
+    "my_projects": "Digitale helden",
+    "my_projects2": "Wij zijn fan van onder meer;",
+	"cyw": "Non-profit organisatie die jonge, digitale talenten helpt en begeleidt bij hun eerste (of officiële) intrede in de wereld van digitale security.",
+	"gdi": "Non-profit organisatie die zich toelegt op het veilig- en openhouden van het internet door middel van responsible disclosure meldingen.",
+	"wics": "Het belangrijkste doel van WiCS is het bevorderen van connecties tussen de ondervertegenwoordigde vrouwen in de verschillende digitale beveiligingsvelden."
+  },
+  "blog":{
+    "my_blog": "Ons Blog"
+  },
+  "contact":{
+    "contact": "Contact",
+    "view": "views"
+  }
+
+}
